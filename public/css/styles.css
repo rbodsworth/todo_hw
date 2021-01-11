@@ -1,0 +1,46 @@
+#app {
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  li {
+    margin: 20px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  li span {
+    padding: 8px;
+  }
+  
+  li button {
+    background: #01030e;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  li.complete {
+    border: 3px solid #1a681e;
+    color: #1a681e;
+  }
+  
+  li.not-complete {
+    border: 3px solid #f2360c;
+  }
+  
+  input[type="text"] {
+    padding: 3px;
+    width: 50%;
+  }
+  
+  
